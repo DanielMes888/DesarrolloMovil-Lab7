@@ -61,20 +61,21 @@ fun BusinessCardScreen() {
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        Text("Tu Nombre Aquí", color = Color.White, fontSize = 24.sp, fontWeight = FontWeight.Bold)
+        Text("Daniel Maestre", color = Color.White, fontSize = 24.sp, fontWeight = FontWeight.Bold)
         Text("Ingeniero en Software", color = Color.Gray, fontSize = 16.sp)
 
         Spacer(modifier = Modifier.height(24.dp))
 
-        Text("Correo: tuemail@ejemplo.com", color = Color.White)
-        Text("LinkedIn: linkedin.com/in/tuperfil", color = Color.White)
-        Text("GitHub: github.com/tuperfil", color = Color.White)
+        Text("Correo: danielmaestre767@gmail.com", color = Color.White)
+        Text("GitHub: github.com/DanielMes888", color = Color.White)
 
         Spacer(modifier = Modifier.height(24.dp))
 
         Text("Habilidades:", color = Color.White, fontWeight = FontWeight.Bold)
         Text("- Kotlin, Java", color = Color.White)
         Text("- Jetpack Compose", color = Color.White)
-        Text("- Firebase, SQL", color = Color.White)
+        Text("- Python", color = Color.White)
+        Text("- MySQL", color = Color.White)
+        Text("- HTML, CSS", color = Color.White)
     }
 }
